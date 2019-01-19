@@ -2,6 +2,14 @@
 
 In this project, text is generated based on the novel "The Old Man and the Sea" by Ernest Hemingway (using Markov chains). Also, WordCloud on novel is generated.
 
+DockerHub Repository: https://cloud.docker.com/repository/registry-1.docker.io/blackitten13/oldman_project
+
+To pull docker image:
+
+```
+docker pull blackitten13/oldman_project:firsttry
+```
+
 How to run image & extract the results:
 
 1. Create a folder where the results are going to be saved (for instance, let it be `result_folder`)
@@ -11,5 +19,3 @@ How to run image & extract the results:
 docker run --volume "absolute_path/result_folder:/project/results" image_name
 ```
 3. Two files will appear in `result_folder`: `generated_text.txt` and `oldman_wordcloud.png`
-
-DockerHub Repository: https://cloud.docker.com/repository/registry-1.docker.io/blackitten13/oldman_project
