@@ -11,3 +11,5 @@ How to run image & extract the results:
 docker run --volume "absolute_path/result_folder:/project/results" image_name
 ```
 3. Two files will appear in `result_folder`: `generated_text.txt` and `oldman_wordcloud.png`
+
+DockerHub Repository: https://cloud.docker.com/repository/registry-1.docker.io/blackitten13/oldman_project
